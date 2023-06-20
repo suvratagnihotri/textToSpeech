@@ -99,7 +99,7 @@ function speakQuestion() {
     var currentQuestion = questions[currentQuestionIndex];
     var questionText = currentQuestion.question;
     var options = currentQuestion.options;
-    var speechText = questionText + ". The options are: ";
+    var speechText = questionText + ". The options are : ";
 
     for (var i = 0; i < options.length; i++) {
         speechText += options[i] + ". ";
